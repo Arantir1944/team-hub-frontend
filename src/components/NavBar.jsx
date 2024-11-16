@@ -20,6 +20,8 @@ const NavBar = () => {
                         <Button color="inherit" component={Link} to="/">Home</Button>
                         <Button color="inherit" component={Link} to="/tasks">Tasks</Button>
                         <Button color="inherit" component={Link} to="/knowledge">Knowledge Base</Button>
+                        <Button color="inherit" component={Link} to="/register">Register</Button> {/* Register link */}
+                        <Button color="inherit" component={Link} to="/login">Login</Button> {/* Login link */}
                     </div>
                 </Box>
             </Toolbar>
